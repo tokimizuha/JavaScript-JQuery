@@ -26,7 +26,7 @@ $("#timer").text(`${String(getHours).padStart(1,'0')}:${String(getMinutes).padSt
 function classReplacementRun()  {
   $("#start").addClass("disabled");
   $("#stop").removeClass("disabled");
-  $("#reset").addClass("disabled");
+  $("#reset").removeClass("disabled");
 }
 
 function classReplacementStop()  {
